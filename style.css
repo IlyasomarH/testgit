@@ -1,0 +1,144 @@
+*{
+	padding:0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+:root{
+	--color-princpal: violet;
+	--tailleP:1.2em;
+	--mt:25px;
+}
+
+body{
+	background-color:var(--color-princpal);
+	font-family: arial;
+}
+
+div.container{
+	margin: 100px;
+	padding: 20px;
+	border: 1px solid black;
+	background-color: #fff;
+	position: relative;
+	border-radius: 10px;
+}
+
+div.container div.recette{
+	text-align: center;
+	/* border: 1px solid black; */
+	/* position: relative; */
+	
+}
+
+div.container div.recette span{
+	background-color: #000;
+	color: #fff;
+	padding: 5px;
+	position:absolute ;
+	top:-15px;
+	border-radius: 5px;
+	/* left: 50%; */
+	/* margin-top:; */
+}
+h1{
+	text-align: center;
+	margin-top: 16px;
+	/* border-bottom: 1px solid black; */
+	/* width: 30px; */
+	word-spacing: 10px;
+	letter-spacing: 10px;
+}
+hr{
+	width: 200px;
+	margin: 20px auto;
+}
+button{
+	cursor: pointer;
+}
+p{
+	text-align: center;
+	margin-bottom: 20px;
+	/* line-height: 200px; */
+}
+
+div.img{
+	/* border: 1px solid black; */
+	/* display: flex;
+	justify-content: center; */
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+div.img img{
+	display: block;
+	/* margin: auto; */
+}
+
+div.test{
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid black;
+
+	position: absolute;
+	bottom: 0;
+	background-color:rgba(0, 0, 0, 0.5);
+	color: white;
+	width: 500px;
+	/* opacity: 0.5; */
+	
+}
+
+div.test h2{
+	font-size: 1.0em;
+}
+
+
+div.test span{
+	font-size: 0.6em;
+	text-align: center;
+	/* border: 1px solid red; */
+	display: block;
+	width: 40px;
+	margin: auto;
+	
+}
+
+div.last-section{
+	display: flex;
+	justify-content: space-between;
+	
+	margin:50px 50px ;
+}
+
+
+div.last-section div ul, ol{
+	list-style: none;
+}
+
+
+
+
+div.last-section div h2{
+	border-bottom: 5px solid violet;
+}
+
+div.last-section div ul li{
+	border: 1px solid violet;
+	margin: 10px 0;
+	padding: 10px;
+	width: 100%;
+}
+
+
+div.last-section div ol li span{
+	background-color: violet;
+	border-radius: 100%;
+	display: inline-block;
+	width: 20px;
+	/* justify-content: center; */
+	text-align: center;
+	margin: 10px 5px;
+	
+}
